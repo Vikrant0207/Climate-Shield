@@ -21,6 +21,8 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 </head>
 
@@ -183,6 +185,8 @@
                     </div>
 
                     <div class="location-box">
+                        <div class="section-title">🗺️ Spatial Threat Tracking Map</div>
+                    <div id="climate-map" style="height: 350px; width: 100%; border-radius: 12px; margin: 15px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.25); z-index: 1;"></div>
                         <h3>📌 Location</h3>
                         <p id="location"></p>
                     </div>
